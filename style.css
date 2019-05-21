@@ -1,0 +1,169 @@
+/** jumbotron */
+.jumbotron
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: #222;
+}
+.navbar
+{
+    padding: .8rem;
+}
+.navbar-nav li
+{
+    padding-right: 20px;
+}
+.nav-link
+{
+    font-size: 1.3em;
+}
+.carousel-caption
+{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1
+{
+    font-size: 50px;
+    text-shadow: 1px 1px 10px black;
+}
+.carousel-caption h3
+{
+    font-size: 30px;
+    text-shadow: 1px 1px 10px black;
+    padding-bottom: 15px;
+}
+.carousel-caption .btn
+{
+    background-color: grey;
+    border: 1px solid black;
+    color: white;
+}
+.jumbotron
+{
+    padding: 1rem;
+}
+.padding
+{
+    padding-bottom: 2rem;
+}
+.welcome
+{
+    text-align: center;
+}
+.welcome hr
+{
+    border-top: 2px solid black;
+    width: 90%;
+}
+.fa-code
+{
+    color: red;
+}
+.fa-bold
+{
+    color: black;
+}
+.fa-css3
+{
+    color: blue;
+}
+.fa-code, .fa-bold, .fa-css3
+{
+    font-size: 50px;
+    padding: 2.5rem;
+}
+.card
+{
+    padding: 1rem;
+}
+.social
+{
+    padding: 3rem;
+}
+.social a
+{
+    font-size: 4.5rem;
+    letter-spacing: 4rem;
+    padding: 3rem; 
+}
+.fa-whatsapp
+{
+    color: lightgreen;
+}
+.fa-facebook
+{
+    color: blue;
+}
+.fa-instagram
+{
+    color: hotpink;
+}
+.fa-youtube
+{
+    color: red;
+}
+.fa-google-plus-g
+{
+    color: red;
+}
+.fa-whatsapp:hover,
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-google-plus-g:hover
+{
+    color:rgba(0,0,0,.5);
+}
+.details
+{
+    letter-spacing: 1.5px;
+}
+/**-- media queries ---*/
+@media (max-width:992px)
+{
+    .social a{
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+@media (max-width: 768px)
+{
+    .carousel-caption
+{
+    
+    top: 55%;
+
+}
+.carousel-caption h1
+{
+    font-size: 30px;
+  
+}
+.carousel-caption h3
+{
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+.welcome h1
+{
+    font-size: 30px;
+}
+.social a{
+    font-size: 2.5em;
+    padding: 1.5rem;
+}
+}
+@media (max-width:576px)
+{
+    .social a{
+        font-size: 2em;
+        padding: 1rem;
+    }
+}
